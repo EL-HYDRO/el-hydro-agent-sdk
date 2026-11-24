@@ -15,6 +15,6 @@
   "bugs": { "url": "https://github.com/EL-HYDRO/el-hydro-agent-sdk/issues" },
   "author": "EL-HYDRO INSTAL LIDER",
   "keywords": ["el-hydro", "plumbing", "rest-api", "sdk", "cli", "mcp", "a2a", "ai-agents", "zielona-gora"],
-  "license": "UNLICENSED",
+  "license": "MIT",
   "private": true
 }
