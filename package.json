@@ -4,17 +4,49 @@
   "description": "Read-only client SDK and CLI for EL-HYDRO INSTAL LIDER public plumbing information API in Zielona Góra, Poland.",
   "type": "module",
   "main": "./index.js",
-  "exports": { ".": { "types": "./index.d.ts", "import": "./index.js", "default": "./index.js" } },
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.js",
+      "default": "./index.js"
+    }
+  },
   "types": "./index.d.ts",
-  "bin": { "el-hydro": "./cli.js" },
-  "files": ["index.js", "index.d.ts", "cli.js", "README.md"],
-  "engines": { "node": ">=22" },
-  "scripts": { "test": "node --test" },
-  "repository": { "type": "git", "url": "git+https://github.com/EL-HYDRO/el-hydro-agent-sdk.git" },
+  "bin": {
+    "el-hydro": "./cli.js"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "cli.js",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EL-HYDRO/el-hydro-agent-sdk.git"
+  },
   "homepage": "https://www.hydraulika.zgora.pl/docs/",
-  "bugs": { "url": "https://github.com/EL-HYDRO/el-hydro-agent-sdk/issues" },
+  "bugs": {
+    "url": "https://github.com/EL-HYDRO/el-hydro-agent-sdk/issues"
+  },
   "author": "EL-HYDRO INSTAL LIDER",
-  "keywords": ["el-hydro", "plumbing", "rest-api", "sdk", "cli", "mcp", "a2a", "ai-agents", "zielona-gora"],
+  "keywords": [
+    "el-hydro",
+    "plumbing",
+    "rest-api",
+    "sdk",
+    "cli",
+    "mcp",
+    "a2a",
+    "ai-agents",
+    "zielona-gora"
+  ],
   "license": "MIT",
-  "private": true
+  "private": false
 }

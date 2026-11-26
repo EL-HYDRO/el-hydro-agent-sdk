@@ -6,7 +6,7 @@ Oficjalny klient publicznego API informacyjnego firmy EL-HYDRO INSTAL LIDER.
 
 **Current version:** 0.1.0
 **License:** MIT
-**Availability:** Public GitHub source code. npm publication pending.
+**Availability:** Public GitHub source code. Available on npm.
 **Requirements:** Node.js 22 or later.
 
 No external dependencies, API keys, customer records, orders, bookings or payments. Use the official website for individual quotations.
@@ -165,9 +165,9 @@ node cli.js travel
 
 The SDK and CLI are currently available as public source code on GitHub.
 
-Publication to the npm registry is pending.
+Published on npm: https://www.npmjs.com/package/el-hydro-agent-sdk
 
-The package remains protected against premature npm publication.
+Install the official SDK: `npm install el-hydro-agent-sdk`.
 
 Planned package name: `el-hydro-agent-sdk`
 
